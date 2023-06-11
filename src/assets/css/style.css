@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+input:focus,
+input:hover,
+button,
+button:hover,
+button:active,
+button:focus,
+textarea:focus,
+textarea:hover,
+textarea {
+  box-shadow: none !important;
+  outline: none !important;
+  resize: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.login-box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-box .login {
+  background: #3e7a9c;
+  padding: 15px;
+  color: #fff;
+}
+
+.login-box .login h4 {
+  text-align: center;
+}
+
+.login-box .login input {
+  padding: 10px 15px;
+  border: none;
+  width: 280px;
+}
+
+.login-box .login button {
+  padding: 10px 15px;
+  border: none;
+}
+
+.header {
+  padding: 15px;
+  background: #3e7a9c;
+  color: #fff;
+}
+
+.header .hamburger {
+  padding: 5px;
+  background: transparent;
+  width: 37px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header .hamburger-active,
+.header .hamburger:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.header .hamburger i {
+  font-size: 20px;
+}
+
+.header-menu {
+  position: fixed;
+  top: 70px;
+  padding-bottom: 70px;
+  height: 100vh;
+  width: 300px;
+  background: #3e7a9c;
+  transition: 0.5s;
+  left: -300px;
+}
+
+.header-menu-active {
+  left: 0;
+}
+
+.header-menu .menu {
+  color: #fff;
+  padding: 15px;
+}
+
+.header-menu .menu .li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header-menu .menu .li a {
+  color: #fff;
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header-menu .menu .li-active,
+.header-menu .menu .li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #3e7a9c;
+  border-radius: 10px;
+}
